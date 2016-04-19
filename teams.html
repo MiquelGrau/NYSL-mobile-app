@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Teams</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        
+        <!-- Bootstrap --><!-- Fonts not loaded -->
+        <link href="bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+        <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!-- generates icon for apple devices -->
+        <link rel="apple-touch-icon" href="css/image/icon.svg">
+        <link rel="apple-touch-icon" sizes="76x76" href="css/image/icon.svg">
+        <link rel="apple-touch-icon" sizes="120x120" href="css/image/icon.svg">
+        <link rel="apple-touch-icon" sizes="152x152" href="css/image/icon.svg">
+        <link rel="shortcut icon" sizes="196x196" href="css/image/icon.svg">
+        
+        <!-- hides browser's navigation bar on our app -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+        
+        <!-- generates icon for android -->
+        <link rel="icon" sizes="192x192" href="css/image/icon.svg">
+        
+        <!-- js -->
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="bootstrap-3.3.6-dist/js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="bootstrap-3.3.6-dist/js/npm.js"></script>
+    </head>
+    <body>
+        <nav class="navbar browser-bar navbar-fixed-top"> <!-- navigation bar that contains: dropdown menu and the title of the page where we are located -->
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle col-xs-1" data-toggle="collapse" data-target="#tab-bar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <h1 class="navbar-brand col-xs-7">Teams</h1>
+                </div>
+                <div id="tab-bar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav menu-style">
+                        <li>
+                            <a href="teams.html">
+                                <img src="css/image/icon-teams.png" class="img-menu" alt="Responsive image">
+                                Teams
+                            </a>
+                        </li>
+                        <li>
+                            <a href="fields.html">
+                                <img src="css/image/icon-fields.png" class="img-menu" alt="Responsive image">
+                                Fields
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                <img src="css/image/icon-contact.png" class="img-menu" alt="Responsive image">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container"> <!-- contains the teams that participate in nysl and they are linked to their matches -->
+            <div class="row">
+                <ul class="listNoStyle">
+                    <li>
+                        <a class="col-xs-12 btn buttonTeamStyle" href="teams/tazmaniacs.html" role="button">
+                            <img src="css/image/icon-tazmaniacs.png" class="img-team" alt="Responsive image">
+                            <span class="col-xs-12">Taz Maniacs</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="col-xs-12 btn buttonTeamStyle" href="teams/bluesonics.html" role="button">
+                            <img src="css/image/icon-bluesonics.png" class="img-team" alt="Responsive image">
+                            <span class="col-xs-12">Blue Sonics</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="col-xs-12 btn buttonTeamStyle" href="teams/mightyminions.html" role="button">
+                            <img src="css/image/icon-mightyminions.png" class="img-team" alt="Responsive image">
+                            <span class="col-xs-12">Mighty Minions</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="col-xs-12 btn buttonTeamStyle" href="teams/angrybirds.html" role="button">
+                            <img src="css/image/icon-angrybirds.png" class="img-team" alt="Responsive image">
+                            <span class="col-xs-12">Angry Birds</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="col-xs-12 btn buttonTeamStyle" href="teams/ninjaturtles.html" role="button">
+                            <img src="css/image/icon-ninjaturtles.png" class="img-team" alt="Responsive image">
+                            <span class="col-xs-12">Ninja Turtles</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="col-xs-12 btn buttonTeamStyle" href="teams/minecraftzombies.html" role="button">
+                            <img src="css/image/icon-minecraftzombies.png" class="img-team" alt="Responsive image">
+                            <span class="col-xs-12">Minecraft Zombies</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
